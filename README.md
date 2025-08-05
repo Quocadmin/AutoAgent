@@ -521,7 +521,88 @@ Rome wasn't built in a day. AutoAgent stands on the shoulders of giants, and we 
 }
 ```
 
+Giới Thiệu Dự Án AutoAgent
+AutoAgent là một framework mã nguồn mở cho phép bạn tạo và triển khai các agent AI sử dụng mô hình ngôn ngữ lớn (LLM) mà không cần biết lập trình. Bạn có thể xây dựng các công cụ, agent, hoặc quy trình tự động chỉ bằng mô tả ngôn ngữ tự nhiên.
 
+Nó hoạt động kiểu "zero-code", nghĩa là chỉ cần giao tiếp, nhập yêu cầu bằng tiếng Anh là đủ — không phải viết code phức tạp.
+
+Các Điểm Nổi Bật
+Hiệu năng vượt trội
+Đứng top trên bảng xếp hạng GAIA Benchmark, cạnh tranh với các agent AI nghiên cứu sâu (như Deep Research của OpenAI).
+
+Quản lý dữ liệu thông minh
+Tích hợp sẵn hệ thống lưu trữ dữ liệu dạng vector để AI truy vấn thông tin hiệu quả, tốt hơn các giải pháp phổ biến như LangChain.
+
+Tạo Agent dễ dàng
+Chỉ cần mô tả bằng ngôn ngữ tự nhiên, AutoAgent sẽ tự động hiểu, gợi ý, và tạo ra các agent, công cụ, hoặc workflow hoàn chỉnh cho bạn.
+
+Hỗ trợ đa dạng mô hình AI
+Làm việc với nhiều loại LLM (OpenAI, Anthropic, Deepseek, Huggingface, Grok...).
+
+Linh hoạt & nhẹ nhàng
+Bạn có thể tùy biến, mở rộng, cá nhân hóa agent cho phù hợp với mục đích riêng, cài đặt đơn giản và nhẹ.
+
+Cách Sử Dụng Cơ Bản
+AutoAgent cung cấp 3 chế độ chính:
+
+User Mode:
+Dùng như một trợ lý AI đa năng kiểu "deep research", tương tự OpenAI Deep Research nhưng miễn phí, mã nguồn mở, hiệu quả cao (có thể chat, trả lời, xử lý file...).
+
+Agent Editor:
+Tạo agent và công cụ mới chỉ bằng mô tả tự nhiên (ví dụ: “Tạo một agent giúp tôi tổng hợp tin tức hằng ngày từ các trang web công nghệ”).
+
+Workflow Editor:
+Tạo các quy trình làm việc tự động phức tạp, bằng mô tả tự nhiên, cho phép kết nối nhiều agent với nhau (ví dụ: lấy dữ liệu web > xử lý > gửi báo cáo email...).
+
+Hướng Dẫn Cài Đặt & Khởi Động Nhanh
+Cài đặt bằng Git:
+
+bash
+Sao chép
+Chỉnh sửa
+git clone https://github.com/HKUDS/AutoAgent.git
+cd AutoAgent
+pip install -e .
+Cài Docker (nếu muốn chạy dạng container):
+Chỉ cần cài Docker, khi chạy lệnh thì Docker sẽ tự động lấy image phù hợp.
+
+Thiết lập API Key cho các LLM:
+Tạo file .env dựa trên .env.template và nhập các API Key cần thiết (OpenAI, Anthropic, Deepseek, Gemini,...).
+
+Khởi động CLI Mode (giao diện dòng lệnh):
+
+Dùng lệnh:
+
+bash
+Sao chép
+Chỉnh sửa
+auto main
+Có thể tùy chọn model AI, port, chế độ debug, v.v.
+
+Đối Tượng Phù Hợp
+Người mới muốn khám phá xây dựng agent AI mà không biết lập trình.
+
+Nhà nghiên cứu cần môi trường thử nghiệm nhanh các ý tưởng về LLM agent.
+
+Cá nhân/Doanh nghiệp muốn tự động hóa tác vụ, xử lý dữ liệu, tổng hợp thông tin, v.v.
+
+Tài Liệu & Cộng Đồng
+Tài liệu chính thức: https://AutoAgent-ai.github.io/docs
+
+Slack/Discord: Kết nối để trao đổi, hỏi đáp, cập nhật mới.
+
+Github Issues: Báo lỗi, góp ý hoặc trao đổi thêm về dự án.
+
+Tổng Kết Nhanh
+AutoAgent giúp bạn tạo các agent AI tự động mà không cần biết code.
+
+Hỗ trợ nhiều loại AI khác nhau, rất dễ dùng.
+
+Đã tối ưu sẵn để hoạt động hiệu quả, miễn phí, mã nguồn mở.
+
+Có thể mở rộng, cá nhân hóa tùy nhu cầu.
+
+Hãy thử khám phá bằng cách chạy thử demo, tạo một agent hoặc workflow đầu tiên của bạn!
 
 
 
